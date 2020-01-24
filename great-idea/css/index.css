@@ -71,7 +71,7 @@ nav {
 
 nav a {
 	color: gray;
-	display: inline;
+	display: flexbox;
 	text-align: center;
 	text-decoration: none;
 }
@@ -79,7 +79,7 @@ nav a {
 h1 {
 	text-align: center;
 	font-size: 80px;
-	display: inline-block;
+	display: flexbox;
 	margin: 120px 200px 80px;
 	column-count: 2;
 }
@@ -87,7 +87,7 @@ h1 {
 button {
   padding: 5px 50px;
   text-align: center;
-  display: inline-block;
+  display: flexbox;
   font-size: 16px;
   font-weight: bold;
   border: 2px solid black;
@@ -99,7 +99,7 @@ h1 img{
 
 .top-content div {
 	border-top: 1px solid black;
-	display: inline-block;
+	display: flexbox;
 	font-weight: bold;
 	text-align: left;
 	margin: 0px 200px;
@@ -119,7 +119,7 @@ h1 img{
 
 .bottom-content {
 	border-bottom: 1px solid black;
-	display: inline-block;
+	display: flexbox;
 	font-weight: bold;
 	text-align: left;
 	margin: 0px 200px;
@@ -132,12 +132,20 @@ h1 img{
 
 .contact {
 	font-weight: bold;
-	display: inline-block;
+	display: flexbox;
 	margin: 30px 200px 30px;
 }
 
 footer {
 	text-align: center;
 	font-weight: bold;
-	margin: 30px 200px 100px;
+	margin: 30px 200px 30px;
+}
+
+
+
+section {
+	column-count: 2;
+	display: flexbox;
+	
 }
