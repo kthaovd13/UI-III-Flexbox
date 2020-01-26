@@ -141,22 +141,3 @@ footer {
 	font-weight: bold;
 	margin: 30px 200px 30px;
 }
-
-.services-header-img {
-	margin: 250px;
-}
-
-header p {
-	margin: 250px;
-}
-
-section {
-	column-count: 2;
-	display: flexbox;
-	margin: 250px;
-}
-
-.services-info-img {
-	float: right;
-}
-
